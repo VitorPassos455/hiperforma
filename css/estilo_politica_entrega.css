@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+
+} 
+
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#mapabrasil{
+    width: 850px;
+}
+
+.diviconespacote{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    padding: 10px;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 70px;
+}
+
+.imgIconesPacotes{
+    width: 120px;
+}
+
+.textoicone{
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+
+

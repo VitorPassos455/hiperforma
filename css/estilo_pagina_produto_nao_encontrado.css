@@ -1,0 +1,13 @@
+#conteinerCorpo{
+    margin-left: 200px;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+
+#conteinerCorpo img{
+    width: 100px;
+}
+
+#conteinerCorpo img, #conteinerCorpo h1{
+    padding-top: 15px;
+}

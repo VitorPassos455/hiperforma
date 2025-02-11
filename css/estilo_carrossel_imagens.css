@@ -1,0 +1,49 @@
+#conteinerCarrossel {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagensCarrossel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100VW;
+}
+
+#imagensCarrossel img {
+    border-radius: 10px;
+    width: 80vw;
+
+}
+
+#botoes {
+    position: absolute;
+    top: 745px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.botoesPassarIMG {
+    width: 55px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+
+.botoesPassarIMG:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 77px;
+    height: 10px;
+    width: 60px;
+}

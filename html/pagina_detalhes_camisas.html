@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Vitor Passos">
+    <link rel="stylesheet" href="../css/estilo_padrao.css">
+    <link rel="stylesheet" href="../css/teste_menu_cascata.css">
+    <link rel="stylesheet" href="../css/estilo_padrao_paginas_roupas.css">
+    <script src="../scripts/script_busca_site.js" defer>//Script para pesquisa no input</script>
+    <title>HiperForma Suplementos</title>
+</head>
+
+<body>
+    <div id="conteiner_CABECALHO">
+        <div id="containercabecalho">
+            <div id="conteinerlogo">
+                <img src="../imagens/logo_sem_fundo.png" id="logomarca" title="Logomarca" alt="Logo Marca"
+                    usemap="#logomarca">
+
+                <map name="logomarca">
+                    <area shape="rect   " coords="1,1,568,102" alt="Logomarca" href="../html/pagina_principal.html"
+                        title="Logomarca">
+                </map>
+            </div>
+            <div id="conteinerpesquisa">
+                <input type="search" value placeholder="Encontre seu produto" id="inputpesquisa">
+                <img src="../imagens/icone_lupa.png" id="iconelupa" onclick="pesquisar()">
+            </div>
+            <div id="conteinerlogin">
+                <img src="../imagens/icone_usuario.png" class="iconecabecalho">
+                <label><a href="cadastro.html"> <strong> Cadastre-se </strong></a> ou <a href="login.html">
+                        <strong>faça seu login </strong></a> </label>
+            </div>
+            <div id="conteinerfavoritos">
+                <img src="../imagens/icone_coracao.png" class="iconecabecalho">
+                <label class="textocabecalho"> <a href="./pagina_de_favoritos.html">Favoritos</a></label>
+            </div>
+            <div id="conteinerfaleconosco">
+                <img src="../imagens/icone_telefone_cab.png" class="iconecabecalho">
+                <label class="textocabecalho"> <a href="./fale_conosco.html"> Fale conosco </a> </label>
+            </div>
+            <div id="conteinercarrinho">
+                <img src="../imagens/icone_carrinho.png" class="iconecabecalho">
+            </div>
+        </div>
+
+        <div id="objetivos">
+            <div>
+                <ul>
+                    <li>
+                        <a href="../html/suplementos_ganho_de_massa.html">GANHO DE MASSA</a>
+                        <ul>
+                            <li><a href="../html/pagina_detalhes_whey_protein.html">WHEY PROTEIN</a></li>
+                            <li><a href="../html/pagina_detalhes_hipercalorico.html">HIPERCALÓRICO</a></li>
+                            <li><a href="../html/pagina_detalhes_creatina.html">CREATINA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../html/suplementos_emagrecimento.html">EMAGRECIMENTO</a>
+                        <ul>
+                            <li><a href="../html/../html/pagina_detalhes_cafeina.html">TERMOGÊNICO</a></li>
+                            <li><a href="../html/pagina_detalhes_Psyllium.html">PSYLLIUM</a></li>
+                            <li><a href="../html/pagina_detalhes_picolinatoDeCromo.html">PICOLINATO DE CROMO</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../html/suplementos_performance.html">PERFORMANCE</a>
+                        <ul>
+                            <li><a href="../html/pagina_detalhes_pre_treino.html">PRÉ TREINO</a></li>
+                            <li><a href="../html/pagina_detalhes_L-carnitina.html">L - CARNITINA</a></li>
+                            <li><a href="../html/pagina_detalhes_beta_alanina.html">BETA ALANINA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../html/suplementos_saude_bem_estar.html">SAÚDE E BEM ESTAR</a>
+                        <ul>
+                            <li><a href="../html/pagina_detalhes_multivitaminico.html">MULTIVITAMÍNICO</a></li>
+                            <li><a href="../html/pagina_detalhes_omega3.html">ÔMEGA 3</a></li>
+                            <li><a href="../html/pagina_detalhes_colageno_hidrolisado.html">COLÁGENO HIDROLISADO</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../html/roupas.html">ROUPAS</a>
+                        <ul>
+                            <li><a href="../html/pagina_detalhes_regatas.html">REGATAS</a></li>
+                            <li><a href="../html/pagina_detalhes_camisas.html">CAMISAS</a></li>
+                            <li><a href="../html/pagina_detalhes_bermudas.html">BERMUDAS</a></li>
+                            <li><a href="../html/pagina_detalhes_camisa_termica.html">CAMISA TÉRMICA</a></li>
+                            <li><a href="../html/pagina_detalhes_moletons.html">MOLETONS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="ConteinerCorpo">
+        <div id="titulo">
+            <h1 id="titulo_principal">CAMISETAS DE TREINO HIPERFORMA</h1>
+        </div>
+
+        <div id="primeiraLinha">
+            <div class="conteinerImagem"><img src="../imagens/camisa_masculina.png"></div>
+            <div class="blocoDeTexto">
+                <h2>Camisa de Treino HiperForma: Desempenho e estilo em cada movimento</h2>
+                <p>A Camisa de Treino HiperForma é a aliada perfeita para você alcançar o máximo desempenho nos seus treinos, sem abrir mão do estilo. Confeccionada com tecnologia de ponta, ela oferece:</p>
+                <h2>Tecido de alta performance</h2>
+                <ul>
+                    <li><strong>Respirabilidade:</strong>o tecido leve e respirável afasta o suor da pele, mantendo o corpo seco e fresco, mesmo nos treinos mais intensos.</li>
+                    <li><strong>Liberdade de movimento:</strong>o corte anatômico e a elasticidade do tecido garantem total liberdade de movimento, permitindo que você se concentre apenas no seu desempenho.</li>
+                    <li><strong>Secagem rápida:</strong>o tecido de secagem rápida evita odores e proporciona conforto durante todo o treino.</li>
+                </ul>
+                <h2>Design moderno e funcional</h2>
+                <ul>
+                    <li><strong>Estilo único:</strong>a Camisa HiperForma apresenta um design moderno e estiloso, com detalhes que fazem a diferença.</li>
+                    <li><strong>Ajuste perfeito:</strong>o corte e o caimento foram pensados para valorizar o corpo masculino, proporcionando um ajuste confortável e seguro.</li>
+                    <li><strong>Versatilidade:</strong>ideal para treinos na academia, ao ar livre ou em casa, a camisa HiperForma é a sua aliada perfeita para alcançar seus objetivos.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="segundaLinha">
+            <div class="conteinerImagem"><img src="../imagens/camisa_feminina.png"></div>
+            <div class="blocoDeTexto">
+                <h2>Durabilidade</h2>
+                <ul>
+                    <li><strong>Alta qualidade:</strong>fabricada com materiais de alta qualidade, a camisa HiperForma é resistente e durável, acompanhando você em todos os seus desafios.</li>
+                    <li><strong>Fácil de cuidar:</strong>a camisa é fácil de lavar e manter, garantindo que ela esteja sempre pronta para o próximo treino.</li>
+                </ul>
+                <h2>Disponível em diversas cores e tamanhos</h2>
+                <ul>
+                    <li><strong>Encontre a sua:</strong>a camisa HiperForma está disponível em diversas cores e tamanhos, permitindo que você encontre a opção perfeita para o seu estilo.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="conteinerItensRodape">
+        <div id="centralDeAtendimento">
+            <h2>Central de Atendimento</h2>
+            <p>
+                <a href="nossa_historia.html" class="links">Sobre a HiperForma Suplementos</a>
+            </p>
+            <p>
+                <a href="fale_conosco.html" class="links">Fale Conosco</a>
+            </p>
+            <p>
+                <a href="seguranca_e_privacidade.html" class="links">Segurança e Privacidade</a>
+            </p>
+            <p>
+                <a href="troca_e_devolucao.html" class="links">Política de Troca e Devolução</a>
+            </p>
+            <p>
+                <a href="envio_da_encomenda.html" class="links">Envio da Encomenda</a>
+            </p>
+            <p>
+                <a href="politica_de_entrega.html" class="links">Política de Entrega</a>
+            </p>
+            <p>
+                <a href="politica_de_privacidade.html" class="links">Política de Privacidade</a>
+            </p>
+        </div>
+
+        <div id="contatos">
+
+            <h2>Canais de Contato</h2>
+
+            <div class="blocoDeContatos">
+                <img class="imgicones" src="../imagens/icone_telefone.png">
+                <div class="itensicone">
+                    Telefone para atendimento: <br>
+                    (32) 4002-8922 <br>
+                    Seg a Sex das 8h às 12h | das 13h30 às 18h
+                </div>
+            </div>
+
+            <div class="blocoDeContatos">
+                <img class="imgicones" src="../imagens/icone_email.png">
+                <div class="itensicone">
+                    E-mail: <br>
+                    sac.hiperforma@gmail.com <br>
+                    atendimento.hiperforma@gmail.com
+                </div>
+            </div>
+
+            <div id="blocoMidiasSociais">
+                <div>Siga nas redes sociais</div>
+                <div><img src="../imagens/icone_instagram.png"></div>
+                <div><img src="../imagens/icone_facebook.png"></div>
+                <div><img src="../imagens/icone_youtube.png"></div>
+                <div><img src="../imagens/icone_twitter.png"></div>
+                <div><img src="../imagens/icone_tiktok.png"></div>
+            </div>
+        </div>
+
+
+        <div id="seguranca">
+            <h2>Segurança</h2>
+            <div class="imagemSeguranca"><img src="../imagens/icone_safe_browse.png"></div>
+            <div id="textoSeguranca">
+                <p>Copyright 2025 Growth Supplements Produtos Alimentícios LTDA - Todos os Direitos Reservados.</p>
+                <p>"Preços e condições de pagamento apresentados neste "site" somente são válidos para as compras
+                    efetuadas no ato da sua exibição. </p>
+                <p>*Condições de pagamento à vista somente para boleto ou pix.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="containerrodape">
+        <p>HiperForma Suplementos Produtos Alimentícios LTDA - Todos os direitos reservados - CNPJ 10500455/0001-07 | R.
+            Bernardo Mascarenhas, 1283 - Fábrica
+            Juiz de Fora - MG, CEP: 36080-001</p>
+    </div>
+</body>
+
+</html>

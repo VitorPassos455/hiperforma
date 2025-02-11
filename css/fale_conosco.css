@@ -1,0 +1,47 @@
+#conteinerCorpo{
+    margin-top: 150px;
+}
+
+#canaisDeContato{
+    display: flex;
+    flex-direction: column;
+}
+
+.canaisContato{
+    padding: 20px;
+}
+
+.conteinerContato{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.textoContato{
+    margin-left: 10px;
+}
+
+.imgIconesContato{
+    width: 55px;
+}
+
+#conteinerAgradecimentos p, h1, h3{
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#assinatura{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#linkFormReclamacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#segundoBloco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

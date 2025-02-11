@@ -1,0 +1,48 @@
+*{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#conteinerCorpo{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+
+#blocoDeTextos h1, #blocoDeTextos h2, #blocoDeTextos h3, #blocoDeTextos p{
+    padding: 5px;
+}
+
+#itensCalculadora p{
+    padding: 5px;
+}
+
+#botaoCalcular{
+    padding: 5px ;
+}
+
+
+
+#botaoCalcular:hover{
+    cursor: pointer;
+}
+
+#conteinerDieta p, #conteinerDieta h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#tabelaDieta{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+#tabelaDieta td{
+    width: 100px;
+}

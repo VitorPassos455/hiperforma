@@ -1,0 +1,90 @@
+#conteinerCorpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#formularioReclamacao {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 5px 10px 15px rgba(128, 128, 128, 0.7);
+}
+
+#dadosPessoais, #descricaoReclamacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 800px;
+}
+
+#dadosDoPedido{
+    margin: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+#dadosDoPedido h3{
+    text-align: center;
+}
+
+.textoFormulario {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+}
+
+select{
+    width: 60px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#motivoReclamacao, #tipoDeProduto{
+    width: 210px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#nome{
+    width: 350px;
+}
+
+textarea{
+    width: 900px;
+    height: 250px;
+    font-weight: normal;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao{
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.botao:hover{
+    background-color:  rgb(243, 243, 243);
+    cursor: pointer;
+    font-weight: bold;
+}

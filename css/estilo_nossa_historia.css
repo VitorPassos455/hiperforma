@@ -1,0 +1,20 @@
+#conteinerCorpo{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+} 
+
+.paragrafocomtexto, h1, h2{
+    text-align: justify;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#h2-especial{
+    margin-left: 0;
+    margin-right: 0;
+}
+

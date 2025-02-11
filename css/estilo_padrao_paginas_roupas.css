@@ -1,0 +1,55 @@
+#ConteinerCorpo {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo_principal {
+    font-size: 40px;
+}
+
+#primeiraLinha{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#segundaLinha{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#ConteinerCorpo img{
+    border-radius: 10px;
+    width: 60vw;
+}
+
+.conteinerImagem{
+    margin: 10px;
+}
+
+.blocoDeTexto{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#ConteinerCorpo p, #ConteinerCorpo li{
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    text-align: justify;
+}
+

@@ -1,0 +1,227 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#conteiner_CABECALHO{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+#containercabecalho {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #36a4e0;
+}
+
+#logomarca {
+    width: 400px;
+}
+
+#conteinerpesquisa {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    width: 350px;
+    height: 55px;
+    background-color: white;
+    padding: 0;
+}
+
+#inputpesquisa {
+    background-color: white;
+    color: black;
+    margin: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 350px;
+    height: 50px;
+}
+
+#iconelupa {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+#iconelupa:hover{
+    cursor: pointer;
+}
+
+#conteinerlogin {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#conteinerfavoritos {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#conteinerfaleconosco {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.iconecabecalho {
+    padding-right: 10px;
+    width: 38px;
+    height: 38px;
+}
+
+label {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #272727;
+    transition: 0.3s;
+    transition-timing-function: easy-in-out;
+    transform: scaleX(0)
+}
+
+a:hover::after {
+    transform: scaleX(1)
+}
+
+
+
+#containerrodape {
+    text-align: center;
+    position: static;
+    bottom: 0;
+    background-color: #36a4e0;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#menuobjetivos {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#objetivos {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+    background-color: #56c4ff;
+
+}
+
+#conteinerItensRodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#centralDeAtendimento h2,#centralDeAtendimento p {
+    padding: 3px;
+    text-align: left;
+}
+
+
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoDeContatos {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#contatos .blocoDeContatos,
+#blocoMidiasSociais {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgicones {
+    max-width: 55px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+    float: left;
+
+}
+
+.itensicone {
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+#blocoMidiasSociais {
+    border: solid 1px black;
+    border-radius: 8px;
+    height: 60px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+#blocoMidiasSociais img {
+    width: 45px;
+}
+
+#seguranca {
+    display: flex;
+    flex-direction: column;
+}
+
+#textoSeguranca {
+    width: 600px;
+}

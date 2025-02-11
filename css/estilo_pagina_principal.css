@@ -1,0 +1,55 @@
+#containerOpcoesPilulas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#conteinerCorpo{
+    margin-top: 150px;
+}
+
+.imgIconePilula{
+    width: 50px;
+    padding-right: 5px;
+}
+
+#iconelupa:hover{
+    cursor: pointer;
+}
+
+.imgIconePilula:hover{
+    zoom: 110%;
+}
+
+.conteinerPilula {
+    justify-content: center;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #56c4ff;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 80px;
+    border: solid black 1px;
+}
+
+.conteudoPilula {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+#conteudosDiversos{
+    margin-left: 100px;
+}
+
+#conteudosDiversos h1, #conteudosDiversos h3, #conteudosDiversos p{
+    padding: 5px;
+}
